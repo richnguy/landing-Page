@@ -14,7 +14,10 @@ body {
 
 .topcontent {
     display: flex;
-    padding: 140px;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -36,6 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 90px;
     
 }
 
@@ -50,7 +54,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 10px;   
+    gap: 20px;   
 }
 .hero {
     display: flex;
@@ -204,7 +208,11 @@ button.signup2 {
 
 }
 
-.bottom {
-    background-color: #e5e7eb;
+.footer {
+    background-color: #34425e;
     display: flex;
+    padding: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
